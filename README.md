@@ -27,7 +27,7 @@ Backup configs/iptables/nftables before use. Update threat lists periodically. T
 ![nwl](https://github.com/user-attachments/assets/0ec5c1d6-6c40-4743-832f-dad6e131f524)
 ![Elon-musk-blunt-780x405](https://github.com/user-attachments/assets/d8c5de7a-4736-468e-b6fc-e65fc2bcf6bc)
 ![3bb2a2f6-bfb8-41de-861e-007899426b92_text](https://github.com/user-attachments/assets/a4dc8489-ea59-412e-b708-a58e23a1d0bb)![samdreamsmaker-samuel-guizani](https://github.com/user-attachments/assets/0d1572fe-12ee-44d5-87e3-53ea2c52b2ec)![giphy](https://github.com/user-attachments/assets/01cdd6e4-0a52-4ebd-8992-3fb39176e0a0)![defcon](https://github.com/user-attachments/assets/3f296624-3b85-4e0e-bb00-0f1587ad08ba)
-![linusfu](https://github.com/user-attachments/assets/e3344384-e2e5-4910-bcfc-1489f6c264f0)![trumpflag](https://github.com/user-attachments/assets/93de40eb-b9ea-4b62-a0f3-4eb0201aad96)![fumeme](https://github.com/user-attachments/assets/10582cfa-d52f-44a5-89f3-b7621bf9c567)
+![linusfu](https://github.com/user-attachments/assets/e3344384-e2e5-4910-bcfc-1489f6c264f0)![trumpflag](https://github.com/user-attachments/assets/93de40eb-b9ea-4b62-a0f3-4eb0201aad96)![fumeme](https://github.com/user-attachments/assets/10582cfa-d52f-44a5-89f3-b7621bf9c567)![brianfoxxy](https://github.com/user-attachments/assets/56ba9f29-d349-45a5-9b8a-b3285450d27f)![merica-america](https://github.com/user-attachments/assets/e65cf6a7-6ba3-4929-8f11-927c250fb5ae)![ciasp](https://github.com/user-attachments/assets/f31a7f31-caaf-411e-80eb-d4a0745b21fa)
 
 
 ## License
