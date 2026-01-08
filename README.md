@@ -20,7 +20,7 @@ Scripts use /etc/hosts for domain redirection to 0.0.0.0, iptables for IP blocki
 
 ## Requirements
 
-- Debian Linux.
+- Linux.
 - Root access.
 - Dependencies: curl, jq (for JSON parsing), iptables.
 - Install jq: `sudo apt install jq`.
