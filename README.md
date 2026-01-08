@@ -27,6 +27,7 @@ Backup hosts and iptables before enabling.
 Update periodically for new domains/IPs.
 
 Test in VM; may break AWS-hosted sites for Amazon blocker.
+![image-21~2](https://github.com/user-attachments/assets/90352cdc-f111-42aa-9152-1188e91821b4)
 
 ## License
 
