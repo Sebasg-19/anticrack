@@ -26,7 +26,8 @@ Backup configs/iptables/nftables before use. Update threat lists periodically. T
 <img width="960" height="295" alt="ciasuper" src="https://github.com/user-attachments/assets/203c86fb-a11f-488f-b3f8-620978b4b6ae" />
 ![nwl](https://github.com/user-attachments/assets/0ec5c1d6-6c40-4743-832f-dad6e131f524)
 ![Elon-musk-blunt-780x405](https://github.com/user-attachments/assets/d8c5de7a-4736-468e-b6fc-e65fc2bcf6bc)
-![3bb2a2f6-bfb8-41de-861e-007899426b92_text](https://github.com/user-attachments/assets/a4dc8489-ea59-412e-b708-a58e23a1d0bb)![samdreamsmaker-samuel-guizani](https://github.com/user-attachments/assets/0d1572fe-12ee-44d5-87e3-53ea2c52b2ec)![giphy](https://github.com/user-attachments/assets/01cdd6e4-0a52-4ebd-8992-3fb39176e0a0)
+![3bb2a2f6-bfb8-41de-861e-007899426b92_text](https://github.com/user-attachments/assets/a4dc8489-ea59-412e-b708-a58e23a1d0bb)![samdreamsmaker-samuel-guizani](https://github.com/user-attachments/assets/0d1572fe-12ee-44d5-87e3-53ea2c52b2ec)![giphy](https://github.com/user-attachments/assets/01cdd6e4-0a52-4ebd-8992-3fb39176e0a0)![defcon](https://github.com/user-attachments/assets/3f296624-3b85-4e0e-bb00-0f1587ad08ba)
+
 
 
 
